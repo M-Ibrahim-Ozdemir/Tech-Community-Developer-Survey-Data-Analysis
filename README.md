@@ -31,6 +31,37 @@ The repository is organized into distinct stages of the data analysis process:
 ---
 The insights presented here are stated in a straightforward manner. Much more detailed and advanced analyses can be found in the code file.
 
+🔍 Comprehensive Analysis Scope
+🔍 Comprehensive Analysis Scope
+Detailed analysis topics I implemented throughout the project and included in the notebooks:
+
+Financial & Career Metrics:
+
+Compensation Analysis: Salary distributions and correlation between salary and years of experience.
+
+Job Satisfaction: Job satisfaction rates according to employment type (Full-time, Freelance, etc.) and work models.
+
+Demographics & Education:
+
+Age & Experience: Participants' age groups and sectoral experience durations.
+
+Educational Background: Relationship between education levels and technology preferences.
+
+Technology & Sentiment:
+
+Technology Hubs: Technology usage intensity by region/country.
+
+Search time - Analyses related to frustration
+
+Work-Life Balance: Analysis of time management and job search processes, and many other analyses. You can access all of them from the code file.
+
+
+
+
+
+
+
+
 
 ## 📈 Key Insights & Findings
 
