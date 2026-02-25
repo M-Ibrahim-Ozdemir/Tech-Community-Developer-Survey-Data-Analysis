@@ -55,15 +55,14 @@ This project demonstrates that the tech industry is not just chasing new trends 
 
 ## 🎓 Certification & Skills
 This project fulfills the requirements for the **IBM Data Analytics Professional Certificate**, covering:
-- [x] Data Visualization and Dashboards with Excel and Cognos
-- [x] Data_Analysis_With_Python
-- [x] Data_Visualization_with_Python
-- [x] Database_and_sql_for_Data_Science_with_Python
+- [x] Introduction to Data Analytics 
+- [x] Data Visualization and Dashboards with Excel , Cognos, looker, BI
 - [x] Excel Basics for Data Analysis
-- [x] IBM_Capstone_Project
-- [x] Introduction to Data Analytics
-- [x] Python for Data Science, AI & Development
+- [x] Database_and_sql_for_Data_Science_with_Python
+- [x] Data_Visualization_with_Python
 - [x] Python Project for Data Science
+- [x] Data_Analysis_With_Python 
+- [x] Data Science, AI & Development
 
 
 - [x] Data Cleaning & Wrangling
@@ -71,6 +70,8 @@ This project fulfills the requirements for the **IBM Data Analytics Professional
 - [x] Python for Data Analysis
 - [x] Data Visualization with Dash & Plotly
 - [x] Professional Data Storytelling
+
+
 
 
 
