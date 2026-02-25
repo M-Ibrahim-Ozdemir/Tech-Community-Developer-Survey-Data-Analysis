@@ -1,83 +1,83 @@
-# 📊 Stack Overflow Geliştirici Anketi Analizi
-### *Uçtan Uca Veri Analitiği Portföy Projesi | IBM Profesyonel Sertifikası*
+# 📊 Stack Overflow Developer Survey Analysis
+### *End-to-End Data Analytics Portfolio Project | IBM Professional Certificate*
 
 ---
 
-## 🚀 Proje Genel Bakışı
-Bu proje, küresel geliştirici ekosistemine dair içgörüler ortaya çıkarmak için tasarlanmış **Stack Overflow Geliştirici Anketi**'nin kapsamlı bir analizidir. Veri toplama ve temizlemeden keşifsel analize ve hikaye anlatımına kadar tüm veri yaşam döngüsünü kapsar.
+## 🚀 Project Overview
+This project is a comprehensive analysis of the **Stack Overflow Developer Survey**, designed to uncover insights into the global developer ecosystem. It covers the entire data lifecycle—from data collection and cleaning to exploratory analysis and storytelling. 
 
-Proje, sektör standardı araç ve metodolojilerde yetkinliği gösteren **IBM Veri Analitiği Profesyonel Sertifikası** için son başarı olarak geliştirilmiştir.
+The project was developed as the capstone achievement for the **IBM Data Analytics Professional Certificate**, demonstrating proficiency in industry-standard tools and methodologies.
 
-## 🛠 Teknik Araç Seti (IBM Müfredatı)
-11 derslik IBM serisi boyunca edinilen becerilerin bir kombinasyonunu kullanan bu proje şunları içerir:
+## 🛠 Technical Toolkit (IBM Curriculum)
+Using a combination of the skills acquired through the 11-course IBM series, this project utilizes:
 
-* **Diller:** Python (Pandas, NumPy), SQL
-* **Veri Toplama:** Web Kazıma (BeautifulSoup), API İstekleri
-* **Veri İşleme:** Eksik değerlerin ele alınması, normalleştirme ve aykırı değer tespiti.
-
-* **Keşifsel Veri Analizi (EDA):** İstatistiksel analiz ve dağılım eğilimleri.
-
-* **Görselleştirme:** Matplotlib, Seaborn, Plotly, Dash ve IBM Cognos.
-* **Araçlar:** Jupyter Notebook'lar, Microsoft Excel (Pivot Tablolar), Gelişmiş SQL sorguları
+* **Languages:** Python (Pandas, NumPy), SQL
+* **Data Collection:** Web Scraping (BeautifulSoup), API Requests
+* **Data Wrangling:** Handling missing values, normalization, and outlier detection.
+* **Exploratory Data Analysis (EDA):** Statistical analysis and distribution trends.
+* **Visualization:** Matplotlib, Seaborn, Plotly, Dash, and Various BI tools
+* **Tools:** Jupyter Notebooks, Microsoft Excel (Pivot Tables), Advanced SQL queries
 
 ---
 
-## 📁 Proje Yapısı
-Depo, veri analizi sürecinin farklı aşamalarına göre düzenlenmiştir:
+## 📁 Project Structure
+The repository is organized into distinct stages of the data analysis process:
 
-* 📂 **`/notebooks`**: Veri temizleme, EDA ve nihai içgörüler için detaylı Jupyter Notebook'lar.
+* 📂 **`/notebooks`**: Detailed Jupyter Notebooks for data cleaning, EDA, and final insights.
+* 📂 **`/data`**: Source datasets and processed files (CSV format).
+* 📂 **`/visualizations`**: High-resolution graphics and dashboard screenshots. Only a portion of them are shown here; you can examine them in detail in the code file.
 
-* 📂 **`/data`**: Kaynak veri kümeleri ve işlenmiş dosyalar (CSV formatı).
 
-* 📂 **`/visualizations`**: Yüksek çözünürlüklü grafikler ve gösterge paneli ekran görüntüleri. Bunların sadece bir kısmı burada gösterilmektedir; bunları kod dosyasında detaylı olarak inceleyebilirsiniz.
+---
+The insights presented here are stated in a straightforward manner. Much more detailed and advanced analyses can be found in the code file.
 
---- Burada sunulan içgörüler basit bir şekilde ifade edilmiştir. Çok daha detaylı ve gelişmiş analizler kod dosyasında bulunabilir.
 
-## 📈 Temel Bulgular ve Analizler
+## 📈 Key Insights & Findings
 
-### 1. Teknoloji Trendleri (Mevcut ve Gelecek)
-* **Otomasyonun Hakimiyeti:** DevOps ve otomasyonun yükselişi nedeniyle Bash/Shell şu anda en üst sıralarda yer alıyor.
+### 1. Technology Trends (Current & Future)
+* **Dominance of Automation:** Bash/Shell is currently a top leader due to the rise of DevOps and automation.
+* **The Go Surge:** While C# and Java remain stable, **Go** is seeing a significant spike in "In-Demand" rankings for next year.
+* **Database Shifts:** **PostgreSQL** is rapidly becoming the preferred choice for developers, surpassing traditional relational systems in future interest.
 
-* **Go'nun Yükselişi:** C# ve Java istikrarlı kalırken, **Go** gelecek yıl için "Talep Edilenler" sıralamasında önemli bir artış gösteriyor.
+### 2. Cloud Infrastructure
+* **AWS Unrivaled:** Amazon Web Services remains the primary choice for infrastructure, followed by Azure and Google Cloud.
 
-* **Veritabanı Değişimleri:** **PostgreSQL**, geliştiriciler için hızla tercih edilen seçenek haline geliyor ve gelecekteki ilgi açısından geleneksel ilişkisel sistemleri geride bırakıyor.
-
-### 2. Bulut Altyapısı
-* **AWS Rakipsiz:** Amazon Web Services, altyapı için birincil tercih olmaya devam ediyor, onu Azure ve Google Cloud takip ediyor.
-
-### 3. Demografik Profil
-* **Aktif İş Gücü:** Anket öncelikle **25-44 yaş grubunu** yansıtıyor ve bu grup, çekirdek, yüksek eğitimli ve aktif teknoloji iş gücünü temsil ediyor.
-* **Eğitim:** Lisans ve Yüksek Lisans derecesine sahip kişilerin yüksek yoğunluğu, teknoloji sektörünün yüksek vasıflı yetenekler tarafından yönlendirilmeye devam ettiğini doğrulamaktadır.
+### 3. Demographic Profile
+* **Active Workforce:** The survey primarily reflects the **25–44 age group**, representing the core, highly-educated, and active tech labor force.
+* **Education:** A high concentration of Bachelor’s and Master’s degree holders confirms that the tech sector continues to be driven by highly skilled talent.
 
 ---
 
-## 🎯 Sonuç
-Bu proje, teknoloji endüstrisinin sadece yeni trendlerin peşinden koşmakla kalmayıp, **güvenilirlik** (SQL Server, AWS) ve **yenilik** (Go, PostgreSQL, Otomasyon) arasında stratejik bir dengeye odaklandığını göstermektedir.
+## 🎯 Conclusion
+This project demonstrates that the tech industry is not just chasing new trends but is focused on a strategic balance between **reliability** (SQL Server, AWS) and **innovation** (Go, PostgreSQL, Automation).
 
 ---
 
-## 🎓 Sertifikalar ve Beceriler
-Bu proje, **IBM Veri Analitiği Profesyonel Sertifikası** gereksinimlerini karşılamaktadır ve şunları kapsamaktadır:
-- [x] Excel ve Cognos ile Veri Görselleştirme ve Gösterge Panoları
-- [x] Python ile Veri Analizi
-- [x] Python ile Veri Görselleştirme
-- [x] Python ile Veri Bilimi için Veritabanı ve SQL
-- [x] Veri Analizi için Excel Temelleri
-- [x] IBM Bitirme Projesi
-- [x] Veri Analitiğine Giriş
-- [x] Veri Bilimi, Yapay Zeka ve Geliştirme için Python
-- [x] Veri Bilimi için Python Projesi
+## 🎓 Certification & Skills
+This project fulfills the requirements for the **IBM Data Analytics Professional Certificate**, covering:
+- [x] Data Visualization and Dashboards with Excel and Cognos
+- [x] Data_Analysis_With_Python
+- [x] Data_Visualization_with_Python
+- [x] Database_and_sql_for_Data_Science_with_Python
+- [x] Excel Basics for Data Analysis
+- [x] IBM_Capstone_Project
+- [x] Introduction to Data Analytics
+- [x] Python for Data Science, AI & Development
+- [x] Python Project for Data Science
 
-- [x] Veri Temizleme ve Düzenleme
-- [x] Veri Bilimi için SQL
-- [x] Veri Analizi için Python
-- [x] Dash ve Plotly ile Veri Görselleştirme
-- [x] Profesyonel Veri Hikaye Anlatımı
+
+- [x] Data Cleaning & Wrangling
+- [x] SQL for Data Science
+- [x] Python for Data Analysis
+- [x] Data Visualization with Dash & Plotly
+- [x] Professional Data Storytelling
+
+
 
 ---
 
-### 📬 İletişim ve Geri Bildirim
-Herhangi bir sorunuz varsa veya metodolojiyi tartışmak isterseniz, [GitHub Profili] veya LinkedIn üzerinden iletişime geçmekten çekinmeyin!
+### 📬 Contact & Feedback
+If you have any questions or would like to discuss the methodology, feel free to reach out via [GitHub Profile] or LinkedIn!
 
-Aşağıda LinkedIn Linki yer almaktadır:
+The LinkedIn link is below:
 https://www.linkedin.com/in/muhammet-ibrahim-%C3%B6zdemir-84321030b/
